@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main
+{
+    height: 100%;
+ 
+    /* font-family: "Helvetica Neue", Helvetica, Arial; */
+    width: 100%;
+    display: flex;
+
+
+}
+.recipeimage
+{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 55%;
+    height: 628px;
+}
+.recipeimage img
+{
+    width: 100%;
+    height: 100%;
+}
+.text_container
+{
+    /* border: 2px solid blue; */
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe_text
+{
+    /* border: 2px solid pink; */
+    width: 70%;
+    height: 80%;
+    display: flex;
+    padding: 20px 22px;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.recipe_text h2
+{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+.recipe_text h4
+{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.recipe_text p
+{
+    font-size: 20px;
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: b; */
+}
+.proceeed
+{
+    /* border: 2px solid orange; */
+    width: 90%;
+    height: 18%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.proceeed button
+{
+    width: 120px;
+    border-radius: 10px;
+background-color: black;
+font-family: 'Ubuntu', sans-serif;
+color: white;
+border: 2px solid black;
+    height: 60px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.button:active
+{
+    background-color: white;
+    color: black;
+}
+
+.recipe
+{
+    /* border: 2px solid blue; */
+    height: 628px;
+display: none;
+
+}
+.ingridents
+{
+    border-right: 2px solid rgba(0, 0, 0, 0.473);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.recipe_text_contain
+{
+    /* border: 2px solid orange; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.recipe_text_contain h1 ,.ingridents h1
+{
+    margin: 10px 10px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.recipe_text_contain p ,.ingridents p{
+    margin: 10px 10px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
